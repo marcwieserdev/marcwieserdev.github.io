@@ -293,8 +293,9 @@ fieldset {
     display: inline-block;
     line-height: 72px;    
     font-family: 'Raleway', sans-serif;
-    font-size: 55px;
+    font-size: 48px;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .carousel-caption h4{
@@ -312,8 +313,9 @@ fieldset {
     display: inline-block;
     line-height: 72px;    
     font-family: 'Raleway', sans-serif;
-    font-size: 55px;
+    font-size: 48px;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .btn {
