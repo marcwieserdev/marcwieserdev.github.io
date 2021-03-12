@@ -13,9 +13,19 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        margin-top: 15px;
+    }
+
+    .container.sm-no-width {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
     .navbar-nav {       
-        margin-top: 30px;       
+        margin-top: 15px;       
     }
 
     .navbar-nav li a {   
@@ -32,7 +42,6 @@
     }
 
     .carousel-caption {
-        top: 35%;
         bottom: 0;
     }
 
@@ -89,7 +98,7 @@
     }
 
     .footer-area-title {   
-        margin-left: 260px;        
+        margin-left: 0px;
     }
 
     .footer-area-desc {

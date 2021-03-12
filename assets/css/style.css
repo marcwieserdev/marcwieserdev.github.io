@@ -337,6 +337,10 @@ fieldset {
     width: 100%;
 }
 
+.col-xs-12 .btn.btn-service {
+    padding: 13px 0px;
+}
+
 .btn-service:hover{    
     color: #a8a8a8;   
 }

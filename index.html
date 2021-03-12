@@ -56,9 +56,9 @@
 	<!-- Navigation-->
     <div class="menu-area" id="home">
       <div class="sticky">
-      	<div class="container">
+      	<div class="container sm-no-width">
       	    <nav class="navbar navbar-default navbar-voice">
-      	      <div class="container">
+      	      <div class="container sm-no-width">
       	        <div class="navbar-header">
       	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
       	            <span class="icon-bar"></span>
@@ -70,9 +70,10 @@
 
       	        <div class="collapse navbar-collapse" id="myNavbar">
       	          <ul class="nav navbar-nav navbar-right">
-                      <li><a href="https://soundcloud.com/marc-wieser-986278922"><i class="fa fa-soundcloud"></i></a></li>
-                      <li><a href="https://twitter.com/marcwieserdev"><i class="fa fa-twitter"></i></a></li>      
-      		            <li><a class="highlight" target="_blank" href="mailto:voix@marc-wieser.fr">Contactez moi sur voix@marc-wieser.fr!</a></li>
+                      <li><a href="https://soundcloud.com/marc-wieser-986278922"><i class="fa fa-soundcloud"></i>&nbsp;&nbsp;<span class="hidden-sm hidden-md hidden-lg">SoundCloud</span></a></li>
+                      <li><a href="https://twitter.com/marcwieserdev"><i class="fa fa-twitter"></i>&nbsp;&nbsp;<span class="hidden-sm hidden-md hidden-lg">Twitter</span></a></li>      
+      		            <li class="hidden-sm"><a class="highlight" target="_blank" href="mailto:voix@marc-wieser.fr">Contactez moi sur voix@marc-wieser.fr!</a></li>
+                      <li class="hidden-xs hidden-md hidden-lg"><a class="highlight" target="_blank" href="mailto:voix@marc-wieser.fr">voix@marc-wieser.fr!</a></li>
       	          </ul>
       	        </div>
       	      </div>
@@ -93,8 +94,9 @@
         <div class="overlay"></div>
         <img src="assets/img/slider-1.jpg" alt="Voiceover Artist" >
         <div class="carousel-caption">
-          <h4>Je suis <span>Marc Wieser</span> et je suis</h4><br> 
-          <h3>Comédien voix-off</h3> 
+          <h4 class="hidden-xs">Je suis <span>Marc Wieser</span> et je suis</h4><br> 
+          <h3 class="hidden-xs">Comédien voix-off</h3>
+          <h3 class="hidden-sm hidden-md hidden-lg">Bienvenue, je suis comédien voix-off!</h3>
           <p>
             <a class="btn btn-service" href="#demo">Ecouter ma démo</a>
           </p>
@@ -172,12 +174,17 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sd-1"></div>
-        <div class="col-md-5 col-sd-10">
+        <div class="col-md-3 col-sd-1 col-lg-3 hidden-xs"></div>
+        <div class="col-md-6 col-sd-10 col-lg-5 hidden-xs">
           <p>
             <a class="btn btn-service full" target="_blank" href="mailto:voix@marc-wieser.fr">Contactez-moi sur voix@marc-wieser.fr!</a>
           </p>
         </div>
+      </div>
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+        <p>
+          <a class="btn btn-service full" target="_blank" href="mailto:voix@marc-wieser.fr">voix@marc-wieser.fr</a>
+        </p>
       </div>
     </div>
   
@@ -185,8 +192,8 @@
   <div class="container footer-area">
       <div class="row  ">
           <!--Copyright details-->
-          <div class="col-md-9">
-              <div class="footer-area-title ">                      
+          <div class="col-md-9 col-sm-9 hidden-xs">
+              <div class="footer-area-title">                      
                 <h2><a href="#">MARC WIESER</a></h2>                      
               </div>
           </div>
