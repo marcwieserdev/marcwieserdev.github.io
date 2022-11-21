@@ -498,7 +498,7 @@ ol li {
 @media only screen and (max-width: 1024px) {
   .container,
   .container-big {
-    max-width: 740px;
+    max-width: 940px;
   }
   .container .col.col-5.col-d-12.limit {
       display: none;
@@ -1758,9 +1758,21 @@ body.disable-animation *::before {
 }
 @media (max-width: 1024px) {
   body {
-    font-size: 18px;
+    font-size: 32px;
+  }
+
+    .social .social__list .social__item .social__link {
+        margin-right: 21px;
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+  }
+
+    .social {
+      margin-bottom: 42px;
   }
 }
+
 @media (max-width: 576px) {
   body {
     font-size: 16px;
@@ -2275,11 +2287,22 @@ table td {
     margin-bottom: 16px;
   }
 }
+
+@media (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+}
+
 @media (max-width: 1024px) {
   .hero__avatar {
     margin-bottom: 12px;
   }
+ .desktop {
+      display: none;
+  }
 }
+
 @media (max-width: 576px) {
   .hero__avatar {
     width: 100px;
@@ -2321,11 +2344,11 @@ table td {
 }
 @media (max-width: 1024px) {
   .hero__description {
-    font-size: inherit;
+    font-size: 42px;
   }
 }
 .hero__subscribe {
-  margin-top: 28px;
+  margin-top: 42px;
 }
 .hero__subscribe .subscribe-form {
   display: flex;
@@ -2353,9 +2376,14 @@ table td {
   color: var(--text-alt-color);
 }
 @media (max-width: 1024px) {
-  .hero__subscribe {
-    margin-top: 20px;
-  }
+    div.hero__subscribe.withbtn {
+        display: flex;
+        justify-content: center;
+    }
+    .hero__subscribe .button {
+        font-size: 35px;
+        padding: 30px 40px;
+    }
   .hero__subscribe .subscribe-email {
     padding: 20px 24px;
   }
@@ -2803,6 +2831,15 @@ table td {
   .pagination {
     margin-top: 40px;
   }
+
+ .button {
+      font-size: 42px;
+      line-height: 1.5;
+  }
+    .hero__subscribe {
+      display: flex;
+      justify-content: center;
+  }
 }
 .button {
   display: inline-block;
@@ -2815,6 +2852,8 @@ table td {
   outline: none;
   cursor: pointer;
   transition: all 0.2s;
+  margin-right: 10px;
+  margin-top: 10px;
   will-change: transform;
   color: var(--dark);
   background-color: var(--primary-color);
@@ -2981,7 +3020,8 @@ table td {
 }
 @media (max-width: 1024px) {
   .footer__author-name {
-    margin-bottom: 20px;
+    margin-bottom: 42px;
+    font-size: 80px;
   }
 }
 @media (max-width: 576px) {
